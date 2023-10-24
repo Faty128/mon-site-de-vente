@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #30336b;
+    font-family: sans-serif;
+}
+.form{
+    width: 70%;
+    height: 100%;
+    padding: 50px;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    background: #383a55;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 5px;
+}
+.form input[type="text"], .form input[type="password"]{
+    background: none;
+    border-top: 1px solid #273747;
+    border-right: 1px solid #273747;
+    border-bottom: 1px solid #30336b;
+    border-left: 1px solid #30336b;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    /* padding: 14px 14px; */
+    width: 100%;
+    outline: none;
+    color: white;
+    transition: 0.24s;
+    font-size: 20px;
+}
+.form h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 4rem;
+    margin-top: 2rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url('images/pattern.jpeg');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: animate 5s linear 2s infinite alternate;
+}
+@keyframes animate {
+    100%{
+        background-position: -500px 0;
+    }
+}
+.form input[type="text"]:focus, .form input[type="password"]:focus{
+    width: 300px;
+    border-bottom: 2px solid #32ff7e;
+    border-left: 2px solid #74b9ff;
+    border-width: 3px;
+}
+.form input[type="submit"], .form input[type="reset"]{
+    border: 0px;
+    background: none;
+    border: 2px solid #6a89cc;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding: 14px 40px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    transition: 0.24s;
+    border-radius: 30px;
+    border-color: #32ff7e;
+    font-size: 20px;
+}
+.form input[type="submit"]:hover{
+    background: #32ff7e;
+}
+.form input[type="reset"]:hover{
+    background: #ff3838;
+}
+@media screen and (max-width:920px) {
+    .form h1{
+        font-size: 15px;
+    }
+    .form input[type="submit"], .form input[type="reset"]{
+        padding: 14px 10px;
+        margin: 20px;
+        margin-left: auto;
+    }
+   
+}
