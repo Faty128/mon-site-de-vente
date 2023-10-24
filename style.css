@@ -157,7 +157,8 @@ color: #fff;
 
 .testimonial {
     background-color:  rgb(32, 32, 44, 0.5);
-    padding: 40px;
+    padding: 30px;
+    margin-top: -15px;
     text-align: center;
   }
 .primary{
