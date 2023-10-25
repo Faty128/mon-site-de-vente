@@ -25,7 +25,6 @@ body{
     display: block;
     margin: 20px auto;
     text-align: center;
-    /* padding: 14px 14px; */
     width: 100%;
     outline: none;
     color: white;
@@ -76,7 +75,11 @@ body{
     background: #32ff7e;
 }
 .form input[type="reset"]:hover{
-    background: #ff3838;
+    background: #32ff7e;
+}
+p a{
+    text-decoration: none;
+    color: gray;
 }
 @media screen and (max-width:920px) {
     .form h1{
@@ -86,6 +89,10 @@ body{
         padding: 14px 10px;
         margin: 20px;
         margin-left: auto;
+    }
+    .form{
+        width: 100%;
+        height: 100%;
     }
    
 }
