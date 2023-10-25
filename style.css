@@ -192,17 +192,18 @@ top: 50%;
 margin: auto;
 padding: 20px;
 border-radius: 15px;
-background: #fef1df;
+background: #383a55;
 margin-top: 4rem;
 width: 50%;
 height: 50%;
 }
 .contact-fomulaire h1{
+    color: white;
     font-size: 4rem;
     line-height: 4rem;
     margin-top: 1rem;
     color: transparent;
-    -webkit-text-stroke: 1px rgba(32, 32, 44);
+    -webkit-text-stroke: 1px #fff;
     background: url('images/pattern.jpeg');
     -webkit-background-clip: text;
     background-position: 0 0;
